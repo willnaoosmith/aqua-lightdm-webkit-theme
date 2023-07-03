@@ -281,8 +281,9 @@ function on_image_error(err) {
  * @param {any} key press event to handle
  */
 function key_press_handler(event) {
-  let action = null;
-  switch (event.code) {
+  let action = null;  
+  switch (event.code) {    
+    case "NumpadEnter":
     case "Enter":
       action =
         selected_user != null
@@ -292,6 +293,7 @@ function key_press_handler(event) {
       event.preventDefault();
       event.stopPropagation();
       break;
+      
     case "Escape":
       action = show_users;
       break;

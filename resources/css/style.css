@@ -24,6 +24,7 @@
   font: normal 100% "ArilloUI";
   font-family: Helvetica, "ArilloUI", sans-serif;
   cursor: default;
+  user-select: none;
 }
 
 body {
