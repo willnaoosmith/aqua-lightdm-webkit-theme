@@ -37,7 +37,7 @@ unzip -o aqua-lightdm-webkit-theme.zip -d /usr/share/lightdm-webkit/themes/aqua
 Clone this repository into the `lightdm-webkit-greeter` theme directory.
 
 ```sh
-git clone https://github.com/paysonwallach/aqua-lightdm-webkit-theme /usr/share/lightdm-webkit/themes/aqua
+git clone https://github.com/willnaoosmith/aqua-lightdm-webkit-theme /usr/share/lightdm-webkit/themes/aqua
 ```
 
 ## Customization
